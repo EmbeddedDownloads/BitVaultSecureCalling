@@ -1,0 +1,102 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lstdc++
+/usr/bin/ld: cannot find -lm
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the CU_curses_run_tests exist failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38669/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_38669.dir/build.make CMakeFiles/cmTC_38669.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38669.dir/CheckSymbolExists.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm  -I/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm/usr/include  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions  -g   -o CMakeFiles/cmTC_38669.dir/CheckSymbolExists.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CU_curses_run_tests'
+  return ((int*)(&CU_curses_run_tests))[argc];
+                  ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_38669.dir/CheckSymbolExists.c.o] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_38669/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <BCUnit/BCUnit.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CU_curses_run_tests
+  return ((int*)(&CU_curses_run_tests))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b64d/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9b64d.dir/build.make CMakeFiles/cmTC_9b64d.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b64d.dir/CheckFunctionExists.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm  -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm/usr/include  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -DCHECK_FUNCTION_EXISTS=clock_gettime -g   -o CMakeFiles/cmTC_9b64d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9b64d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b64d.dir/link.txt --verbose=1
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -DCHECK_FUNCTION_EXISTS=clock_gettime -g  -Wl,--fix-cortex-a8  -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_9b64d.dir/CheckFunctionExists.c.o  -o cmTC_9b64d -lrt 
+/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_9b64d] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_9b64d/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a395/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a395.dir/build.make CMakeFiles/cmTC_0a395.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a395.dir/CheckIncludeFile.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm  -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm/usr/include  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions  -g   -o CMakeFiles/cmTC_0a395.dir/CheckIncludeFile.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'execinfo.h' file not found
+#include <execinfo.h>
+         ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_0a395.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_0a395/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+

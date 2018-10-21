@@ -1,0 +1,846 @@
+[
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera_switch_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\camera_switch_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\voicemail.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\voicemail.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkbox_checked.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\avatar.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\avatar.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cross.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\cross.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\conference_start.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\conference_start.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_available_phone.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_available_phone.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_available_desktop.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_available_desktop.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dialer_alt_back.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\dialer_alt_back.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\route_earpiece_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\route_earpiece_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_cancel_button.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_cancel_button.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_incoming.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_incoming.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\routes_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\routes_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calllog.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\calllog.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\select_all.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\select_all.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_status_missed.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_status_missed.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_add.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_add.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_textfield.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_textfield.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_star.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_star.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_add.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_add.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_chat_bubble_outgoing.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_chat_bubble_outgoing.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_busy_phone.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_busy_phone.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_9_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_9_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\conference_exit_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\conference_exit_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_7.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_7.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menu_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\menu_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_quality_indicator_4.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_quality_indicator_4.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\add_field_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\add_field_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\micro_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\micro_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\speaker_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\speaker_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_send_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_send_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\deselect_all.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\deselect_all.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_5.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_5.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_7_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_7_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dlt.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\dlt.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\topbar_call_notification.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\topbar_call_notification.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow_hangup.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\arrow_hangup.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_start_conference.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_start_conference.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_back.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_back.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quit_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\quit_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_transfer.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_transfer.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\topbar_videocall_notification.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\topbar_videocall_notification.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menu.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\menu.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\route_bluetooth.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\route_bluetooth.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_quality_indicator_1.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_quality_indicator_1.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\led_connected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\led_connected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_away.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_away.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\led_disconnected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\led_disconnected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\footer_chat.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\footer_chat.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_2.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_2.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_send_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_send_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\footer_contacts.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\footer_contacts.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_textfield_error.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_textfield_error.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_3.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_3.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edt.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\edt.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\list_details_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\list_details_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\delete.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\delete.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_5_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_5_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_read.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_read.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\route_earpiece.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\route_earpiece.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\micro_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\micro_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\security_pending.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\security_pending.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\topbar_avatar.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\topbar_avatar.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_available.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_available.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_busy.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_busy.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\conference_exit_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\conference_exit_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_start_body_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_start_body_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\footer_dialer.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\footer_dialer.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pause_big_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\pause_big_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera_switch_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\camera_switch_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\securecalldone.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\securecalldone.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_6_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_6_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_4.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_4.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_alt_back.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_alt_back.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contact_add.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contact_add.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\clean_field_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\clean_field_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\history_missed_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\history_missed_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_0_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_0_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_away_phone.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_away_phone.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contact_add_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contact_add_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contacts_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contacts_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\clean_field_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\clean_field_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_star_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_star_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contact_new.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contact_new.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_quality_indicator_0.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_quality_indicator_0.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera_switch_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\camera_switch_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contact.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contact.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_hash.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_hash.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_start_body_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_start_body_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\avatar_mask.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\avatar_mask.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\info.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\info.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\history_chat_indicator.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\history_chat_indicator.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_outgoing.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_outgoing.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\add_field_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\add_field_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\background.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\background.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\led_inprogress.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\led_inprogress.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\camera_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fast_scroll_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\fast_scroll_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_start_body_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_start_body_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_start_conference_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_start_conference_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\back.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_disconnected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_disconnected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_8.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_8.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_attachment_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_attachment_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\security_ok.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\security_ok.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\speaker_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\speaker_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pause_small_over_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\pause_small_over_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pause_big_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\pause_big_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\history_all_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\history_all_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\route_bluetooth_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\route_bluetooth_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_message_inprogress.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_message_inprogress.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\valid.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\valid.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\delete_field_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\delete_field_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_status_outgoing.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_status_outgoing.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pause_big_over_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\pause_big_over_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_2_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_2_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edit_list.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\edit_list.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_audio_start.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_audio_start.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\capslockbutton.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\capslockbutton.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\uploadbutton.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\uploadbutton.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\security_ko.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\security_ko.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fast_scroll_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\fast_scroll_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_add_call.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_add_call.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\speaker_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\speaker_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_busy_desktop.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_busy_desktop.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\backspace_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\backspace_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\led_error.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\led_error.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_attachment_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_attachment_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calling.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\calling.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_status_incoming.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_status_incoming.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\waiting_time.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\waiting_time.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\footer_history.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\footer_history.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_delivered.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_delivered.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_disconnected_desktop.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_disconnected_desktop.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_start_body_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_start_body_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_video_start.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_video_start.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_unsecure.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_unsecure.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_transfer_call.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_transfer_call.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\camera_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_confirm_delete_button.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_confirm_delete_button.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\topbar_chat_notification.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\topbar_chat_notification.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\route_speaker.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\route_speaker.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_add_call_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_add_call_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\routes_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\routes_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\lime_ko.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\lime_ko.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_chat_bubble_incoming.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_chat_bubble_incoming.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contacts_all_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contacts_all_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dialer_back.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\dialer_back.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_assistant_button_over.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_assistant_button_over.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_alt_start.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_alt_start.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_start_body_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_start_body_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_4_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_4_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\history_all_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\history_all_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_away_desktop.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_away_desktop.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\valid_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\valid_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\secure_icon.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\secure_icon.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edit_list_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\edit_list_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edit.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\edit.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_message_not_delivered.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_message_not_delivered.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cancel_edit.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\cancel_edit.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_1_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_1_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\micro_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\micro_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_secure.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_secure.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pause_small_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\pause_small_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contacts_sip_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contacts_sip_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\checkbox_unchecked.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\checkbox_unchecked.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\status_disconnected_phone.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\status_disconnected_phone.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\history_missed_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\history_missed_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\avatar_chat_mask.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\avatar_chat_mask.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_hash_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_hash_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contacts_sip_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contacts_sip_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_assistant_button.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_assistant_button.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\resizable_assistant_button_disabled.9.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\resizable_assistant_button_disabled.9.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\backspace_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\backspace_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pause_small_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\pause_small_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_1.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_1.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\arrow_accept.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\arrow_accept.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quit_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\quit_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_quality_indicator_2.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_quality_indicator_2.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\route_speaker_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\route_speaker_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\avatar_mask_border.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\avatar_mask_border.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calling_background.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\calling_background.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\list_details_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\list_details_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\backspace_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\backspace_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_missed.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_missed.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_hangup.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_hangup.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_message_delivered.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_message_delivered.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\delete_field_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\delete_field_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\options_transfer_call_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\options_transfer_call_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_3_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_3_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\incoming_icon.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\incoming_icon.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_0.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_0.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_6.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_6.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\camera_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\camera_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\keypad.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\keypad.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\avatar_chat_mask_outgoing.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\avatar_chat_mask_outgoing.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_start_body_default.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_start_body_default.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_list_indicator.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_list_indicator.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\securecailling.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\securecailling.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\delete_disabled.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\delete_disabled.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_error.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_error.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_picture_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_picture_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\numpad_8_over.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\numpad_8_over.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contacts_all_selected.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\contacts_all_selected.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call_quality_indicator_3.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\call_quality_indicator_3.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\splashscreen.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\splashscreen.png"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_file_message.png",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\drawable-xhdpi\\chat_file_message.png"
+    }
+]

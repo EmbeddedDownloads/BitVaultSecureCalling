@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:color/white">
+
+            <RelativeLayout
+                android:id="@+id/number_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_12dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/relativeLayout">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/calling_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/margin_25dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="f"
+                    android:textColor="@color/headerColor" />
+
+                <org.linphone.utils.BitVaultFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/margin_25dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="h"
+                    android:textColor="@color/headerColor" />
+
+                <TextView
+                    android:id="@+id/numeroOrAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/calling_icon" />
+
+                <TextView
+                    android:id="@+id/address_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/numeroOrAddress"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/calling_icon" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/address_label"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/calling_icon"
+                    android:background="@color/colorE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/number_info"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/relativeLayout">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/key_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/margin_25dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="w"
+                    android:textColor="@color/headerColor" />
+
+                <org.linphone.utils.BitVaultFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/margin_25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="h"
+                    android:textColor="@color/headerColor" />
+
+                <TextView
+                    android:id="@+id/public_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/key_icon"
+                    android:text="asdfgh3r4hgfdd5bvnb4y6b" />
+
+                <TextView
+                    android:id="@+id/publick_key_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/public_key"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/key_icon"
+                    android:text="Publick Key" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorE" />-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+            <!--    <TextView
+                    android:id="@+id/address_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:text="sdfghgfds"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorE" />-->
+
+
+            <ImageView
+                android:id="@+id/friendLinphone"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/securecallicon"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <!-- <TextView
+             android:id="@+id/numeroOrAddress"
+             style="@style/font6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ellipsize="marquee"
+             android:fadingEdge="horizontal"
+             android:gravity="center"
+             android:marqueeRepeatLimit="marquee_forever"
+             android:maxLines="1"
+             android:scrollHorizontally="true"
+             android:text="sdfghgfdds" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/contact_call"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/content_description_call"
+                android:src="@drawable/call_start_body_default" />
+
+            <ImageView
+                android:id="@+id/contact_chat"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/content_description_chat"
+                android:src="@drawable/chat_start_body_default" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</TableRow>

@@ -1,0 +1,79 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_SSE4_1 failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcd2c/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fcd2c.dir/build.make CMakeFiles/cmTC_fcd2c.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcd2c.dir/src.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-x86  -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -DOPUS_X86_MAY_HAVE_SSE4_1 -g   -o CMakeFiles/cmTC_fcd2c.dir/src.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:7:10: error: always_inline function '_mm_mul_epi32' requires target feature 'sse4.1', but would be inlined into function 'main' that is compiled without support for 'sse4.1'
+        mtest = _mm_mul_epi32(mtest, mtest);
+                ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_fcd2c.dir/src.c.o] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_fcd2c/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <smmintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m128i mtest;
+	mtest = _mm_set1_epi32((int)time(NULL));
+	mtest = _mm_mul_epi32(mtest, mtest);
+	return _mm_cvtsi128_si32(mtest);
+}
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_AVX failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3827e/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3827e.dir/build.make CMakeFiles/cmTC_3827e.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3827e.dir/src.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-x86  -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -DOPUS_X86_MAY_HAVE_AVX -g   -o CMakeFiles/cmTC_3827e.dir/src.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:6:10: error: always_inline function '_mm256_set1_ps' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+        mtest = _mm256_set1_ps((float)time(NULL));
+                ^
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:7:10: error: always_inline function '_mm256_addsub_ps' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+        mtest = _mm256_addsub_ps(mtest, mtest);
+                ^
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp/src.c:8:24: error: always_inline function '_mm256_undefined_ps' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+        return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+                              ^
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/../lib64/clang/3.8.275480/include/avxintrin.h:2820:14: note: expanded from macro '_mm256_extractf128_ps'
+    (__v8sf)(_mm256_undefined_ps()), \
+             ^
+3 errors generated.
+make[5]: *** [CMakeFiles/cmTC_3827e.dir/src.c.o] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_3827e/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <immintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m256 mtest;
+	mtest = _mm256_set1_ps((float)time(NULL));
+	mtest = _mm256_addsub_ps(mtest, mtest);
+	return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+}

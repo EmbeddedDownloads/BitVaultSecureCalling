@@ -1,0 +1,849 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/upper_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <RelativeLayout
+            android:id="@+id/Adress_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_50dp"
+            android:windowSoftInputMode="stateVisible">
+
+            <RelativeLayout
+                android:id="@+id/mAddContactRl"
+                android:layout_width="@dimen/margin_50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/ripple_effect">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/mAddContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:text="@string/add_contact_icon"
+                    android:textSize="@dimen/textsize_20sp" />
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/bitVaultFont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:text="@string/add_contact_icon"
+                    android:textSize="@dimen/textsize_20sp" />
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/mQRButton"
+                android:layout_toRightOf="@+id/mAddContactRl"
+                android:fillViewport="true">
+
+                <org.linphone.ui.AddressText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:isScrollContainer="true"
+                    android:maxLength="34"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/colorB"
+                    android:textSize="@dimen/textsize_18sp" />
+            </ScrollView>
+
+            <RelativeLayout
+                android:id="@+id/deleteButton"
+                android:layout_width="@dimen/margin_50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:visibility="gone">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/erras"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:text="@string/backicon"
+                    android:textSize="@dimen/textsize_20sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/mQRButton"
+                android:layout_width="@dimen/margin_50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ripple_effect">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/mQRscan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:text="@string/barcode_icon"
+                    android:textSize="@dimen/textsize_20sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/AdressViewRl"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/Adress_rl"
+            android:background="@color/colorE"
+            android:visibility="visible" />
+
+
+        <!--soft keybaord relative layout-->
+        <RelativeLayout
+            android:id="@+id/softKeyboardRl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorF"
+            android:visibility="visible">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/main_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_300dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:clipChildren="true"
+                android:orientation="vertical">
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginRight="@dimen/margin_5">
+
+                        <LinearLayout
+                            android:layout_width="390dp"
+                            android:layout_height="@dimen/margin_50dp"
+                            android:weightSum="11.5">
+
+                            <TextView
+                                android:id="@+id/x1"
+                                style="@style/Default"
+
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="1"
+                                android:text="1" />
+
+                            <TextView
+                                android:id="@+id/x2"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="2"
+                                android:text="2" />
+
+                            <TextView
+                                android:id="@+id/x3"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="3"
+                                android:text="3" />
+
+                            <TextView
+                                android:id="@+id/x4"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="4"
+                                android:text="4" />
+
+                            <TextView
+                                android:id="@+id/x5"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="5"
+                                android:text="5" />
+
+                            <TextView
+                                android:id="@+id/x6"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="6"
+                                android:text="6" />
+
+                            <TextView
+                                android:id="@+id/x7"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="7"
+                                android:text="7" />
+
+                            <TextView
+                                android:id="@+id/x8"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="8"
+                                android:text="8" />
+
+                            <TextView
+                                android:id="@+id/x9"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="9"
+                                android:text="9" />
+
+                            <TextView
+                                android:id="@+id/x0"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="0"
+                                android:text="0" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/margin_5">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/margin_45"
+
+                            android:weightSum="11.5">
+
+                            <TextView
+                                android:id="@+id/xQ"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:tag="Q"
+                                android:text="Q" />
+
+                            <TextView
+                                android:id="@+id/xW"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="W"
+                                android:text="W" />
+
+                            <TextView
+                                android:id="@+id/xE"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="E"
+                                android:text="E" />
+
+                            <TextView
+                                android:id="@+id/xR"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="R"
+                                android:text="R" />
+
+
+                            <TextView
+                                android:id="@+id/xT"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="T"
+                                android:text="T" />
+
+                            <TextView
+                                android:id="@+id/xY"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="y"
+                                android:text="Y" />
+
+                            <TextView
+                                android:id="@+id/xU"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="U"
+                                android:text="U" />
+
+                            <TextView
+                                android:id="@+id/xI"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="I"
+                                android:text="I" />
+
+                            <TextView
+                                android:id="@+id/xO"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="O"
+                                android:text="O" />
+
+                            <TextView
+                                android:id="@+id/xP"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="P"
+                                android:text="P" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_15">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_45"
+                            android:weightSum="11">
+
+
+                            <TextView
+                                android:id="@+id/xA"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight=".9"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="A"
+                                android:text="A" />
+
+                            <TextView
+                                android:id="@+id/xS"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="S"
+                                android:text="S" />
+
+                            <TextView
+                                android:id="@+id/xD"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="D"
+                                android:text="D" />
+
+                            <TextView
+                                android:id="@+id/xF"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="F"
+                                android:text="F" />
+
+                            <TextView
+                                android:id="@+id/xG"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="G"
+                                android:text="G" />
+
+                            <TextView
+                                android:id="@+id/xH"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="H"
+                                android:text="H" />
+
+                            <TextView
+                                android:id="@+id/xJ"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="J"
+                                android:text="J" />
+
+                            <TextView
+                                android:id="@+id/xK"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="K"
+                                android:text="K" />
+
+                            <TextView
+                                android:id="@+id/xL"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="L"
+                                android:text="L" />
+
+                            <TextView
+                                android:id="@+id/xS1"
+                                style="@style/Default"
+                                android:layout_width="@dimen/margin_33dp"
+                                android:layout_height="fill_parent"
+                                android:layout_alignWithParentIfMissing="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_horizontal|center_vertical|center"
+                                android:layout_toRightOf="@id/xL"
+                                android:fitsSystemWindows="true"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="ç"
+                                android:text="ç"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/margin_45"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:weightSum="10">
+
+                            <Button
+                                android:id="@+id/xS2"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:tag="à"
+                                android:text="à"
+                                android:visibility="gone" />
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/mChangeRl"
+                                android:background="@drawable/ripple_effect"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:id="@+id/xChange"
+                                    android:layout_width="@dimen/margin_20dp"
+                                    android:layout_height="@dimen/margin_20dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/upper_char_icon1"
+                                    android:soundEffectsEnabled="true"
+                                    android:tag="upper" />
+
+
+                            </RelativeLayout>
+
+
+                            <TextView
+                                android:id="@+id/xZ"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="Z"
+                                android:text="Z" />
+
+                            <TextView
+                                android:id="@+id/xX"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="X"
+                                android:text="X" />
+
+                            <TextView
+                                android:id="@+id/xC"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="C"
+                                android:text="C" />
+
+                            <TextView
+                                android:id="@+id/xV"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="V"
+                                android:text="V" />
+
+                            <TextView
+                                android:id="@+id/xB"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="B"
+                                android:text="B" />
+
+                            <TextView
+                                android:id="@+id/xN"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="N"
+                                android:text="N" />
+
+                            <TextView
+                                android:id="@+id/xM"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="M"
+                                android:text="M" />
+
+                            <TextView
+                                android:id="@+id/xS3"
+                                style="@style/Default"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/mybutton"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:tag="é"
+                                android:text="é"
+                                android:visibility="gone" />
+
+                            <org.linphone.utils.BitVaultFont
+                                android:id="@+id/xBack"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_horizontal|center_vertical|center"
+                                android:layout_weight="1"
+                                android:background="@drawable/ripple_effect"
+                                android:gravity="center"
+                                android:soundEffectsEnabled="true"
+                                android:text="@string/backicon"
+                                android:textSize="@dimen/textsize_20sp" />
+
+
+                        </LinearLayout>
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:fitsSystemWindows="true"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/margin_45"
+                            android:gravity="bottom"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/xChange1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@drawable/chat_send_default"
+                                android:fitsSystemWindows="true"
+                                android:paddingLeft="@dimen/margin_35"
+                                android:soundEffectsEnabled="true"
+                                android:tag="upper"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/xS4"
+                                android:layout_width="@dimen/margin_33dp"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:fitsSystemWindows="true"
+                                android:soundEffectsEnabled="true"
+                                android:tag="è"
+                                android:text="è"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/xSpace"
+                                android:layout_width="@dimen/margin_75dp"
+                                android:layout_height="fill_parent"
+                                android:fitsSystemWindows="true"
+                                android:soundEffectsEnabled="true"
+                                android:tag=" "
+                                android:text="|_____|"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/xS5"
+                                android:layout_width="@dimen/margin_30"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center_horizontal|center_vertical|center"
+                                android:fitsSystemWindows="true"
+                                android:soundEffectsEnabled="true"
+                                android:tag="û"
+                                android:text="û"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/xS6"
+                                android:layout_width="@dimen/margin_30"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center_horizontal|center_vertical|center"
+                                android:fitsSystemWindows="true"
+                                android:soundEffectsEnabled="true"
+                                android:tag="î"
+                                android:text="î"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/xNum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:fitsSystemWindows="true"
+                                android:soundEffectsEnabled="true"
+                                android:tag="num"
+                                android:text="12#"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/xDone"
+                                android:layout_width="@dimen/margin_40dp"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right"
+                                android:background="@drawable/backspace_default"
+                                android:fitsSystemWindows="true"
+                                android:soundEffectsEnabled="true"
+                                android:tag="done"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Adress_rl"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:id="@+id/mBackBtn"
+                            android:layout_width="@dimen/height_60dp"
+                            android:layout_height="@dimen/height_60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_70dp"
+                            android:src="@drawable/back_to_call"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/softSecureCalling"
+                            android:layout_width="@dimen/margin_60dp"
+                            android:layout_height="@dimen/margin_60dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/ripple_effect"
+                            android:src="@drawable/securecallicon"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/mSecureConference"
+                            android:layout_width="@dimen/height_60dp"
+                            android:layout_height="@dimen/height_60dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_70dp"
+                            android:src="@drawable/add_call"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+                </TableLayout>
+            </TableLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

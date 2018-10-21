@@ -1,0 +1,2 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/lib/libgsm.a
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/gsm/gsm.h

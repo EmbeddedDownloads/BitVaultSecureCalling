@@ -1,0 +1,14 @@
+# Target labels
+ EP_srtp
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_srtp
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_srtp.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_srtp-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-force_build.rule

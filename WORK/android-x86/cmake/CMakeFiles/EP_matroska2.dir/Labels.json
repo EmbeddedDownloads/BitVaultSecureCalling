@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_matroska2"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_matroska2.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_matroska2-complete.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-install.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-download.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-update.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-patch.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-configure.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-build.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_matroska2/EP_matroska2-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_matroska2" ],
+		"name" : "EP_matroska2"
+	}
+}

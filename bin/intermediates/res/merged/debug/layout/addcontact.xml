@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_hight"
+        android:background="@color/headerColor">
+
+        <RelativeLayout
+            android:id="@+id/mHeaderLeftIconRl"
+            android:layout_width="@dimen/header_hight"
+            android:layout_height="@dimen/header_hight"
+            android:layout_alignParentLeft="true">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="d"
+                android:textColor="@color/colorH" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/header_center_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="New Contact"
+            android:textColor="@color/colorH"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/save_button"
+        android:layout_below="@+id/header">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/user_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/colorE">
+
+                <ImageView
+                    android:id="@+id/contact_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp" />
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/take_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:text="@string/camera_icon"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/contact"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/user_image"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/contact_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/securecallicon" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/contact"
+                android:text="Saving to"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/contact_type"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/user_image"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/contact"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/name"
+                android:layout_width="@dimen/margin_50dp"
+                android:layout_height="@dimen/margin_50dp"
+                android:layout_below="@id/contact"
+                android:layout_marginTop="20dp">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/name_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/contact_icon" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/contactFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/name"
+                android:hint="First Name"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/contactLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contactFirstName"
+                android:layout_marginRight="40dp"
+                android:inputType="textNoSuggestions"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:layout_toRightOf="@+id/name"
+                android:hint="Surname"
+                android:singleLine="true" />
+
+            <RelativeLayout
+                android:id="@+id/phone_block"
+                android:layout_width="@dimen/margin_50dp"
+                android:layout_height="@dimen/margin_50dp"
+                android:layout_below="@id/contactLastName"
+                android:layout_marginTop="10dp">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/phone_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/accept_call" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/phone_numbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:layout_marginRight="40dp"
+                android:clickable="true"
+                android:hint="Phone"
+                android:singleLine="true"
+                android:layout_alignTop="@+id/phone_block"
+                android:layout_toEndOf="@+id/phone_block" />
+
+            <Spinner
+                android:id="@+id/phone_type"
+                android:layout_width="@dimen/margin_140dp"
+                android:layout_height="@dimen/margin_40dp"
+                android:layout_below="@id/phone_numbers"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/phone_block" />
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_type"
+                android:orientation="vertical"></LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/publicKeyBlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/container"
+                android:visibility="visible">
+
+
+                <RelativeLayout
+                    android:id="@+id/email_block"
+                    android:layout_width="@dimen/margin_50dp"
+                    android:layout_height="@dimen/margin_50dp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible">
+
+                    <org.linphone.utils.BitVaultFont
+                        android:id="@+id/email_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="@string/key_icon" />
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/public_key"
+                    android:layout_width="match_parent"
+                    android:inputType="textNoSuggestions"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+
+                    android:maxLength="128"
+                    android:maxLines="5"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/email_block"
+                    android:hint="Public Key"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/margin_50dp"
+                    android:layout_height="@dimen/margin_50dp"
+                    android:id="@+id/mBarCodeRL"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    >
+
+                    <org.linphone.utils.BitVaultFont
+                        android:id="@+id/barCodeIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:text="@string/barcode_icon"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/containerPublicKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/publicKeyBlock"
+                android:orientation="vertical"></LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/headerColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/textsize_18sp"
+            android:text="@string/save"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</RelativeLayout>

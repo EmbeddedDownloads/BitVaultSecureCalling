@@ -1,0 +1,2 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libcpufeatures.a
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/cpu-features.h

@@ -1,0 +1,76 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test OPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4de32/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4de32.dir/build.make CMakeFiles/cmTC_4de32.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4de32.dir/src.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm  -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm/usr/include  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR -g   -o CMakeFiles/cmTC_4de32.dir/src.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6:8: warning: implicit declaration of function 'vqmovns_s32' is invalid in C99 [-Wimplicit-function-declaration]
+        OUT = vqmovns_s32(IN);
+              ^
+1 warning generated.
+Linking C executable cmTC_4de32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de32.dir/link.txt --verbose=1
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR -g  -Wl,--fix-cortex-a8  -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_4de32.dir/src.c.o  -o cmTC_4de32 
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6: error: undefined reference to 'vqmovns_s32'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_4de32] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_4de32/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <arm_neon.h>
+int main(int argc, char *argv[]) {
+	static int32_t IN;
+	static int16_t OUT;
+	OUT = vqmovns_s32(IN);
+}
+Performing C SOURCE FILE Test OPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR_FLAGS failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e524a/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e524a.dir/build.make CMakeFiles/cmTC_e524a.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e524a.dir/src.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm  -isystem /home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm/usr/include  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR_FLAGS -mfpu=neon -g   -o CMakeFiles/cmTC_e524a.dir/src.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6:8: warning: implicit declaration of function 'vqmovns_s32' is invalid in C99 [-Wimplicit-function-declaration]
+        OUT = vqmovns_s32(IN);
+              ^
+1 warning generated.
+Linking C executable cmTC_e524a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e524a.dir/link.txt --verbose=1
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-14/arch-arm -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -DOPUS_ARM_MAY_HAVE_AARCH64_NEON_INTR_FLAGS -mfpu=neon -g  -Wl,--fix-cortex-a8  -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e524a.dir/src.c.o  -o cmTC_e524a 
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c:6: error: undefined reference to 'vqmovns_s32'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_e524a] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_e524a/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <arm_neon.h>
+int main(int argc, char *argv[]) {
+	static int32_t IN;
+	static int16_t OUT;
+	OUT = vqmovns_s32(IN);
+}

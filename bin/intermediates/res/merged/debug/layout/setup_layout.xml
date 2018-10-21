@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_15"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen10">
+
+    <TextView
+        android:layout_width="@dimen/height_50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:text="@string/me"
+        android:textSize="@dimen/textsize_18sp" />
+
+    <LinearLayout
+        android:id="@+id/profileLout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_45dp"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/setUpTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_up_my_profile"
+            android:textSize="@dimen/textsize_18sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:gravity="center">
+
+            <org.linphone.utils.CircularImageView
+                android:id="@+id/profileImg"
+                android:layout_width="@dimen/circle_width"
+                android:layout_height="@dimen/circle_width"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/profileImgTxt"
+                android:layout_width="@dimen/circle_width"
+                android:layout_height="@dimen/circle_width"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:background="@drawable/contact_circle_view"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sixe_30sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/profileNameTxt"
+            style="@style/font6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</RelativeLayout>

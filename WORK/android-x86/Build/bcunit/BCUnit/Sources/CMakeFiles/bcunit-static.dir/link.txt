@@ -1,0 +1,2 @@
+/home/vvdn/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc libbcunit.a  CMakeFiles/bcunit-static.dir/Framework/CUError.c.o CMakeFiles/bcunit-static.dir/Framework/MyMem.c.o CMakeFiles/bcunit-static.dir/Framework/TestDB.c.o CMakeFiles/bcunit-static.dir/Framework/TestRun.c.o CMakeFiles/bcunit-static.dir/Framework/Util.c.o CMakeFiles/bcunit-static.dir/Basic/Basic.c.o CMakeFiles/bcunit-static.dir/Automated/Automated.c.o
+/home/vvdn/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib libbcunit.a

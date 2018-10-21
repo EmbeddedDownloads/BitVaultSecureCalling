@@ -1,0 +1,14 @@
+# Target labels
+ EP_ms2plugins
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_ms2plugins
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_ms2plugins.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_ms2plugins-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_ms2plugins/EP_ms2plugins-force_build.rule

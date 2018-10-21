@@ -1,0 +1,14 @@
+# Target labels
+ EP_gsm
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_gsm
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_gsm.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_gsm-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_gsm/EP_gsm-force_build.rule

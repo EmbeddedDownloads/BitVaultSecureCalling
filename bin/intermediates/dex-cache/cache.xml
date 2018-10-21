@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\linphone-android\secure_sdk\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="869cffc1a225d5d7dc3f8d5927465ba246035c49">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\4\linphone-android-secure_sdk-unspecified_b5e8eb519be792dbe50d97cc4e592e58bdfa3e69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.0_6213aac597b123c811a7612122a12826a66a2c11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.0_5f3dc0750df3b62f62898da3519d69f4722e1dbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_ed80ebcc3e4a40251544d1a3edb896794ef4cb44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.0_a8e84738d8af450d3f5a523344c783c054549c54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.0_e9f3442f61f657a5110635fd2dc341f010baecf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_14583d0722c3297e2389ce50c51620fc326e8715\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.0_5beb0ede53cd863464676a46d8b877a1ff07af12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\linphone-android\secure_sdk\unspecified\jars\libs\org-apache-commons-codec.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5bc534f8a5bd3312ffdc3112207154c71aa853bd">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\8\org-apache-commons-codec_8ec048f2cc4663f03bc03710de29cbb1137107c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\design\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.3.0_105cd5127806c34a76f9a3d6f90485a3435b6d90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\com.implimentz\unsafe\0.0.6\2959093dc6d9371317dc8a0db16c0d194077add0\unsafe-0.0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2959093dc6d9371317dc8a0db16c0d194077add0">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\unsafe-0.0.6_179c6bd634193b2c042ede1a7327f76a10d8f4ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\com.madgag.spongycastle\prov\1.54.0.0\2761c67fdffa21ffcd73cfb8c3acd52ca8866694\prov-1.54.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2761c67fdffa21ffcd73cfb8c3acd52ca8866694">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\prov-1.54.0.0_bcec5fd6ec99133e6238d36bc848da7bc3a5cee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_bab89af99a31a5c5d6d8e8c85d8e57042606a9a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.0_ba08eced150c7785463c16de9c14b40855690119\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\linphone-android\secure_sdk\unspecified\jars\libs\org.eclipse.paho.client.mqttv3-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7738a11691e5da5713aca3b21f09c762c8280371">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\8\org.eclipse.paho.client.mqttv3-1.1.1_035ebcd6cff02d7ed14f7b00fd2a0e60c06e50a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\org.tukaani\xz\1.2\bfc66dda280a18ab341b5023248925265c00394c\xz-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfc66dda280a18ab341b5023248925265c00394c">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\xz-1.2_2ae1041408879feeb56b4c1d1a6355773790fd7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.0_86b8df5ca2b710bcbe0d2a9c27bf021d71d2feda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.5\d2bd2c0bd328f1dabdf33e10b6d223ebcbe93343\commons-compress-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2bd2c0bd328f1dabdf33e10b6d223ebcbe93343">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\commons-compress-1.5_efc8ae042775f6a23d47936e8aef9e4259126d4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\sdk1\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_8e2e5dbdc60bc3d9e63f294d25c8e08646720bb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.0_bf9a6fb01a8af48b137815a520dd4966335d32f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\com.madgag.spongycastle\core\1.54.0.0\de79c5f8c67234f0d0073e00ed1f3bab0e5d1e67\core-1.54.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de79c5f8c67234f0d0073e00ed1f3bab0e5d1e67">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\core-1.54.0.0_3d82172569633a0a8c86ddc90a82222728d16e2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.dhruvvaishnav.sectionindexrecyclerviewlib\sectionindexrecyclerviewlib\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f705bbbdb514c193c56d365c0cfe0041450b49f">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.dhruvvaishnav.sectionindexrecyclerviewlib-sectionindexrecyclerviewlib-1.0.2_b1b1b247efc0be4066f886df07fdba61c3b0e8dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vvdn\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_f00ebb2770810877c0e2bd6ed95c42e7ad52d18b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\transition\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.3.0_2ef9210a4fc001f3a58cea79f6e047a3774a60cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\sdk1\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0\constraint-layout-solver-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90493f2ea15ff3f57416368123e5d4d180e0c6fd">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0_d93be7e3c5e78058a6e2dc75467450cf999efbaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.3.0_5cea3c58f5574c055e5cbcdca58b26452b17185f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.4.0_16a9cf263a3c823f3dbdc45d42de4c5694561f82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.0_451515c2a035895b744f9ad57e44bb01feda64dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.0_b426527e315437867cf58845276157d379eb6067\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_aefef5c8d657daf6c11fd7e2d7104cdfd478897a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20672631818754557255886d3feb43e7fe75a66">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0_9af4cdb99c7bd2c6f3b30d9c88ee10358881be4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\exploded-aar\linphone-android\secure_sdk\unspecified\jars\libs\zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f109185c4ad13ec99defff852ae8b7875525fa4d">
+        <dex dex="E:\workspace1\SecureCalling_checkout\SecureCalling\nehah\linphone-android\bin\intermediates\transforms\dex\debug\folders\1000\8\zbar_3c88f6311d087b7e0365b841cbf838224ebcaf3c\classes.dex" />
+    </item>
+
+</items>

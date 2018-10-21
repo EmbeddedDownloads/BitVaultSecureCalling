@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_view"
+        layout="@layout/header_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_220dp">
+
+        <ImageView
+            android:id="@+id/wallet_icon"
+            android:layout_width="@dimen/height120dp"
+            android:layout_height="@dimen/height120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:src="@drawable/securecallicon" />
+
+        <TextView
+            android:id="@+id/securecallingtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wallet_icon"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/secure_calling"
+            android:textAlignment="center"
+            android:textColor="@color/colorC"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/securecallingtext"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/select_wallet_for_secure_calling"
+            android:textAlignment="center"
+            android:textColor="@color/colorC"
+            android:textSize="@dimen/text_size_15" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/wallet_type_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

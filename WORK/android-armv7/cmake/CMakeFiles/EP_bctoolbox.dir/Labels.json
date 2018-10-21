@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_bctoolbox"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_bctoolbox.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_bctoolbox-complete.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-install.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-download.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-update.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-patch.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-configure.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-build.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_bctoolbox/EP_bctoolbox-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_bctoolbox" ],
+		"name" : "EP_bctoolbox"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ EP_bzrtp
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_bzrtp
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_bzrtp.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_bzrtp-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bzrtp/EP_bzrtp-force_build.rule

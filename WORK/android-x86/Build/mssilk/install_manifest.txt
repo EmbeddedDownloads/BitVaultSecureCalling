@@ -1,0 +1,1 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/mediastreamer/plugins/libmssilk.so

@@ -1,0 +1,146 @@
+// Project information
+buildDir = 'bin'
+
+def getPackageName() {
+    return "org.linphone"
+}
+
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
+apply plugin: 'com.android.application'
+
+dependencies {
+    //    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2') {
+    //        exclude module: 'support-annotations'
+    //    }
+    compile 'org.apache.commons:commons-compress:1.5'
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.dhruvvaishnav.sectionindexrecyclerviewlib:sectionindexrecyclerviewlib:1.0.2'
+    compile project(path: ':secure_sdk')
+}
+
+//// Submodule Dir /////
+def submoduleDir = ['submodules/mediastreamer2/java/src',
+                    'submodules/linphone/java/j2se',
+                    'submodules/linphone/java/common',
+                    'submodules/linphone/java/impl',
+                    'submodules/linphone/coreapi/help/java']
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionName "SecureCalling1.0"
+        applicationId getPackageName()
+        multiDexEnabled true
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+        disable 'MissingTranslation', 'UnusedResources'
+    }
+    // Signing
+    signingConfigs {
+        release {
+            storeFile file(RELEASE_STORE_FILE)
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            def srcDirs = submoduleDir
+            srcDirs.addAll(['src/android'])
+            java.srcDirs = srcDirs
+            resources.srcDirs = srcDirs
+            aidl.srcDirs = srcDirs
+            renderscript.srcDirs = srcDirs
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+
+            // Exclude some useless files
+            packagingOptions {
+                exclude '**/gdb.*'
+            }
+        }
+
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+}
+
+task runApplication() {
+    def result = exec {
+        executable = 'adb'
+        ignoreExitValue true
+        args = ['shell', 'monkey', '-p', getPackageName(), '-c', 'android.intent.category.LAUNCHER', '1']
+    }
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion '25.3.0'
+                }
+            }
+        }
+    }
+}

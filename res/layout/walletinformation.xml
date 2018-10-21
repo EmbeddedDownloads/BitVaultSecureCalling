@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_view"
+        layout="@layout/header_view" />
+
+    <RelativeLayout
+        android:id="@+id/secure_calling"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/header_view">
+
+        <ImageView
+            android:id="@+id/wallet_icon"
+            android:layout_width="@dimen/height120dp"
+            android:layout_height="@dimen/height120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:src="@drawable/securecallicon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wallet_icon"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:text="@string/secure_calling"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/textsize_18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/public_key_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secure_calling"
+        android:layout_marginStart="@dimen/margin_20dp">
+
+        <TextView
+            android:id="@+id/wallet_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wallet"
+            android:textColor="@color/colorC"
+            android:textSize="@dimen/textsize_18sp" />
+
+        <Spinner
+            android:id="@+id/wallet_type"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40dp"
+            android:layout_below="@id/wallet_text"
+            android:layout_toRightOf="@+id/phone_block" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/charge_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/public_key_block"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp">
+
+        <TextView
+            android:id="@+id/call_charge_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/call_charge"
+            android:textColor="@color/colorC"
+            android:textSize="@dimen/textsize_18sp" />
+
+        <TextView
+            android:id="@+id/call_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/call_charge_text"
+            android:layout_marginTop="10sp"
+            android:text="@string/_0_000854_btc_min"
+            android:textSize="@dimen/textsize_17sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calling_fee_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/public_key_block"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp">
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:layout_alignParentBottom="true"
+        android:background="?selectableItemBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/headerColor"
+            android:gravity="center"
+            android:text="@string/proceed_to_call"
+            android:textColor="@android:color/white"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loader_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_view"
+        android:focusable="true"
+        android:background="@android:color/white">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress_bar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:text="@string/bitcoin_transfer_is_in_progress" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+  android:layout_width="match_parent"
+	android:layout_height="match_parent"
+  android:gravity="center">
+
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/colorC"
+		android:textStyle="bold"
+		style="@style/font14"
+        android:gravity="center"
+		android:padding="@dimen/margin_10"
+		android:text="@string/confirm_delete"/>
+	<TextView
+		android:id="@+id/customText"
+		style="@style/font14"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="@color/colorC"
+		android:text="@string/delete_text"
+		android:padding="@dimen/margin_10dp"/>
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/margin_50dp"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
+		<TextView
+			style="@style/style_dialog_btn"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+
+			android:background="@color/colorE"
+			android:id="@+id/cancel_button"
+			android:layout_marginLeft="@dimen/margin_10"
+			android:layout_marginRight="@dimen/margin_5"
+			android:layout_marginBottom="@dimen/margin_10dp"
+			android:text="@string/no" />
+
+		<TextView
+			style="@style/style_dialog_btn"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/colorA"
+			android:layout_marginLeft="@dimen/margin_5"
+			android:layout_marginRight="@dimen/margin_10"
+			android:layout_marginBottom="@dimen/margin_10dp"
+			android:id="@+id/delete_button"
+			android:text="@string/yes" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:visibility="gone"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/cancel1"
+			android:text="@string/cancel"
+			android:background="@drawable/resizable_cancel_button"
+			style="@style/font8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/margin_10dp"
+			android:padding="@dimen/margin_10dp"/>
+
+		<Button
+			android:id="@+id/delete_button1"
+			android:text="@string/delete"
+			android:background="@drawable/resizable_confirm_delete_button"
+			style="@style/font15"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/margin_10dp"
+			android:padding="@dimen/margin_10dp"/>
+
+		</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/pkgconfig/bctoolbox.pc
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/pkgconfig/bctoolbox-tester.pc
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/bctoolbox/cmake/BcToolboxTargets.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/bctoolbox/cmake/BcToolboxTargets-relwithdebinfo.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/bctoolbox/cmake/BcToolboxConfig.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/bctoolbox/cmake/BcToolboxConfigVersion.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/bctoolbox/cmake/BcToolboxCMakeUtils.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/crypto.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/list.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/logging.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/map.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/port.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/vfs.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/vconnect.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bctoolbox/tester.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libbctoolbox-x86.so
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libbctoolbox-tester-x86.so

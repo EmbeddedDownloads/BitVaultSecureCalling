@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/publicKeyBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_type"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:id="@+id/email_block"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/email_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="t" />
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/phone_numbers_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="@dimen/margin_40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/email_block"
+            android:hint="Phone"
+            android:visibility="visible" />
+
+        <org.linphone.utils.BitVaultFont
+            android:id="@+id/cross_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/cross_icon"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+    <Spinner
+        android:id="@+id/phone_type_tile"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_40dp"
+        android:layout_below="@id/publicKeyBlock"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/phone_block" />
+
+</RelativeLayout>

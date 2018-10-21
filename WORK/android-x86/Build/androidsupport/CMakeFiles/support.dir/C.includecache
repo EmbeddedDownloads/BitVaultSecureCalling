@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vvdn/android-ndk-r14b/sources/android/support/include/stdio.h
+stdarg.h
+-
+wchar.h
+-
+xlocale.h
+-
+
+/home/vvdn/android-ndk-r14b/sources/android/support/include/stdlib.h
+xlocale.h
+-
+
+/home/vvdn/android-ndk-r14b/sources/android/support/include/wchar.h
+stdarg.h
+-
+stdio.h
+-
+stddef.h
+-
+wctype.h
+-
+xlocale.h
+-
+stddef.h
+-
+
+/home/vvdn/android-ndk-r14b/sources/android/support/include/wctype.h
+xlocale.h
+-
+
+/home/vvdn/android-ndk-r14b/sources/android/support/include/xlocale.h
+
+/home/vvdn/android-ndk-r14b/sources/android/support/src/musl-multibyte/wctomb.c
+stdlib.h
+-
+wchar.h
+-
+

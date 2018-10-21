@@ -1,0 +1,316 @@
+# /home/vvdn/linphone/linphone-android-arpit/submodules/externals/libvpx/configure --prefix=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86 --target=x86-android-gcc --prefix=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86 --target=x86-android-gcc --enable-static --disable-shared --enable-error-concealment --enable-multithread --enable-realtime-only --enable-spatial-resampling --enable-vp8 --disable-vp9 --enable-libs --disable-install-docs --disable-debug-libs --disable-examples --disable-unit-tests --as=yasm --sdk-path=/home/vvdn/android-ndk-r14b/
+Configuring for target 'x86-android-gcc'
+  enabling x86
+check_cpp
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	#if !defined(__ILP32__) || !defined(__x86_64__)
+     2	#error "not x32"
+     3	#endif
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -E -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+/tmp/vpx-conf-29418-18782.c:2:2: error: #error "not x32"
+ #error "not x32"
+  ^
+  enabling runtime_cpu_detect
+check_cflags -mmmx
+check_cc -Werror -mmmx
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -mmmx -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling mmx
+check_cflags -msse
+check_cc -Werror -msse
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -msse -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling sse
+check_cflags -msse2
+check_cc -Werror -msse2
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -msse2 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling sse2
+check_cflags -msse3
+check_cc -Werror -msse3
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -msse3 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling sse3
+check_cflags -mssse3
+check_cc -Werror -mssse3
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -mssse3 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling ssse3
+check_cflags -msse4
+check_cc -Werror -msse4
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -msse4 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling sse4_1
+check_cflags -mavx
+check_cc -Werror -mavx
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -mavx -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling avx
+check_cflags -mavx2
+check_cc -Werror -mavx2
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -mavx2 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+  enabling avx2
+  using yasm
+check_cxxflags -DNDEBUG
+check_cxx -Werror -DNDEBUG
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -DNDEBUG -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -DNDEBUG
+check_cc -Werror -DNDEBUG
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -Werror -DNDEBUG -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -O3
+check_cxx -Werror -O3
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -Werror -O3 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -O3
+check_cc -Werror -O3
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -Werror -O3 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -fPIC
+check_cxx -Werror -fPIC
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -Werror -fPIC -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -fPIC
+check_cc -Werror -fPIC
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -Werror -fPIC -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cc
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	unsigned int e = 'O'<<24 | '2'<<16 | 'B'<<8 | 'E';
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cc
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	static inline function() {}
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wall
+check_cxx -Werror -Wall
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Werror -Wall -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wall
+check_cc -Werror -Wall
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Werror -Wall -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wdeclaration-after-statement
+check_cxx -Werror -Wdeclaration-after-statement
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Werror -Wdeclaration-after-statement -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+cc1plus: error: command line option '-Wdeclaration-after-statement' is valid for C/ObjC but not for C++ [-Werror]
+cc1plus: all warnings being treated as errors
+check_cflags -Wdeclaration-after-statement
+check_cc -Werror -Wdeclaration-after-statement
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Werror -Wdeclaration-after-statement -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wdisabled-optimization
+check_cxx -Werror -Wdisabled-optimization
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Werror -Wdisabled-optimization -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wdisabled-optimization
+check_cc -Werror -Wdisabled-optimization
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Werror -Wdisabled-optimization -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wfloat-conversion
+check_cxx -Werror -Wfloat-conversion
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Werror -Wfloat-conversion -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wfloat-conversion
+check_cc -Werror -Wfloat-conversion
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Werror -Wfloat-conversion -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wpointer-arith
+check_cxx -Werror -Wpointer-arith
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Werror -Wpointer-arith -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wpointer-arith
+check_cc -Werror -Wpointer-arith
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Werror -Wpointer-arith -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wtype-limits
+check_cxx -Werror -Wtype-limits
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Werror -Wtype-limits -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wtype-limits
+check_cc -Werror -Wtype-limits
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Werror -Wtype-limits -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wcast-qual
+check_cxx -Werror -Wcast-qual
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wcast-qual
+check_cc -Werror -Wcast-qual
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wvla
+check_cxx -Werror -Wvla
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wvla
+check_cc -Werror -Wvla
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wimplicit-function-declaration
+check_cxx -Werror -Wimplicit-function-declaration
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+cc1plus: error: command line option '-Wimplicit-function-declaration' is valid for C/ObjC but not for C++ [-Werror]
+cc1plus: all warnings being treated as errors
+check_cflags -Wimplicit-function-declaration
+check_cc -Werror -Wimplicit-function-declaration
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wuninitialized
+check_cxx -Werror -Wuninitialized
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wuninitialized -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wuninitialized
+check_cc -Werror -Wuninitialized
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Werror -Wuninitialized -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wunused
+check_cxx -Werror -Wunused
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Werror -Wunused -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wunused
+check_cc -Werror -Wunused
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Werror -Wunused -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cxxflags -Wextra
+check_cxx -Werror -Wextra
+BEGIN /tmp/vpx-conf-29418-18782.cc
+     1	int x;
+END /tmp/vpx-conf-29418-18782.cc
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Wunused -Werror -Wextra -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.cc
+check_cflags -Wextra
+check_cc -Werror -Wextra
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Werror -Wextra -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cflags -Wundef
+check_cc -Werror -Wundef
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Werror -Wundef -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_cflags -Wshorten-64-to-32
+check_cc -Werror -Wshorten-64-to-32
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Wundef -Werror -Wshorten-64-to-32 -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+x86_64-linux-android-gcc: error: unrecognized command line option '-Wshorten-64-to-32'
+  enabling postproc
+  enabling webm_io
+  enabling libyuv
+check_header stdio.h
+check_cpp
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	#include "stdio.h"
+     2	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Wundef -E -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_ld
+check_cc
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	int main(void) {return 0;}
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Wundef -c -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-g++ --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -m32 -o /tmp/vpx-conf-29418-18782.x /tmp/vpx-conf-29418-18782.o
+check_header pthread.h
+check_cpp
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	#include "pthread.h"
+     2	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Wundef -E -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_header unistd.h
+check_cpp
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	#include "unistd.h"
+     2	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Wundef -E -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c
+check_header vpx/vpx_integer.h -I/home/vvdn/linphone/linphone-android-arpit/submodules/externals/libvpx
+check_cpp -I/home/vvdn/linphone/linphone-android-arpit/submodules/externals/libvpx
+BEGIN /tmp/vpx-conf-29418-18782.c
+     1	#include "vpx/vpx_integer.h"
+     2	int x;
+END /tmp/vpx-conf-29418-18782.c
+/home/vvdn/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/linux-x86_64/bin/x86_64-linux-android-gcc --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-24/arch-x86 -D__ANDROID__ -m32 -DNDEBUG -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wfloat-conversion -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused -Wextra -Wundef -I/home/vvdn/linphone/linphone-android-arpit/submodules/externals/libvpx -E -o /tmp/vpx-conf-29418-18782.o /tmp/vpx-conf-29418-18782.c

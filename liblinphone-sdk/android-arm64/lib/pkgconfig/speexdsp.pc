@@ -1,0 +1,15 @@
+# libspeexdsp pkg-config source file
+
+prefix=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64
+exec_prefix=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/bin
+libdir=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/lib
+includedir=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include
+
+Name: speexdsp
+Description: Speexdsp is a speech processing library that goes along with the Speex codec
+Version: 1.2rc1
+Requires: 
+Conflicts:
+Libs: -L/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/lib -lspeexdsp
+Libs.private: -lm
+Cflags: -I/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include

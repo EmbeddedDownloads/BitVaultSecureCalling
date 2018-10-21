@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/selectwallet_item_row"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_60dp">
+
+        <org.linphone.utils.BitVaultFont
+            android:id="@+id/wallet_icon"
+            android:layout_width="@dimen/margin_60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:gravity="center"
+            android:text="@string/wallet_icon"
+            android:textColor="@color/itempressed"
+            android:textSize="@dimen/test_45sp" />
+
+        <TextView
+            android:id="@+id/wallet_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_toLeftOf="@+id/bitcoin_icon"
+            android:layout_toRightOf="@+id/wallet_icon"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/wallet_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="normal" />
+
+        <org.linphone.utils.BitVaultFont
+            android:id="@+id/bitcoin_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/wallet_balance"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="@string/bitcoin_icon"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+</LinearLayout>

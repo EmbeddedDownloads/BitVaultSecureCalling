@@ -1,0 +1,14 @@
+# Target labels
+ EP_xml2
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_xml2
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_xml2.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_xml2-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_xml2/EP_xml2-force_build.rule

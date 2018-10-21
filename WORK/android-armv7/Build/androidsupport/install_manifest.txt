@@ -1,0 +1,5 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/lib/libsupport.a
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/ctype.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/langinfo.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/nl_types.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/xlocale.h

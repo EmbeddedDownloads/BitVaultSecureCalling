@@ -1,0 +1,14 @@
+# Target labels
+ EP_androidsupport
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_androidsupport
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_androidsupport.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_androidsupport-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_androidsupport/EP_androidsupport-force_build.rule

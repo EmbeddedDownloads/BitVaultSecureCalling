@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/header_hight">
+
+    <RelativeLayout
+        android:id="@+id/header_view_parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_hight">
+
+        <RelativeLayout
+            android:id="@+id/headerLeftView"
+            android:layout_width="@dimen/header_left_right_width"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/headerLeftViewImage"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginEnd="@dimen/header_left_right_icon_margin"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/headerLeftTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/header_left_right_text_size"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/header_heading_text_size"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <RelativeLayout
+            android:id="@+id/headerRightView"
+            android:layout_width="@dimen/header_left_right_width"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/headerRightViewImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/header_left_right_icon_margin" />
+
+            <TextView
+                android:id="@+id/headerRightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/header_left_right_text_size"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

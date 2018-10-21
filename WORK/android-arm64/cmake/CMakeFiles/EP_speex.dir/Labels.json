@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_speex"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_speex.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_speex-complete.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-install.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-download.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-update.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-patch.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-configure.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-build.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_speex/EP_speex-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_speex" ],
+		"name" : "EP_speex"
+	}
+}

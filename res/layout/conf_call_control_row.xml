@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="2dp"
+    android:alpha="0.5"
+    android:background="@color/colorA"
+    android:divider="@color/colorE"
+    android:dividerHeight="1dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/contactPicture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/avatar" />
+
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contactNameOrNumber"
+            style="@style/font6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+
+        <Chronometer
+            android:id="@+id/call_timer"
+            style="@style/font2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+    <org.linphone.utils.BitVaultFont
+        android:id="@+id/quitConference"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/margin_10"
+        android:textSize="@dimen/textsize_30sp"
+        android:layout_gravity="center_horizontal|center_vertical|center"
+        android:textColor="@color/colorH"
+        android:text="@string/pause_icon"
+        android:contentDescription="@string/content_description_exit_conference"
+        android:gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:src="@drawable/conference_exit_default"
+        />
+
+    <org.linphone.utils.BitVaultFont
+        android:id="@+id/mCancelConference"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center_vertical|center"
+        android:layout_marginRight="@dimen/margin_10"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorH"
+        android:padding="@dimen/margin_10"
+        android:soundEffectsEnabled="true"
+        android:text="@string/cancel_icon"
+        android:textSize="@dimen/textsize_30sp" />
+
+</LinearLayout>

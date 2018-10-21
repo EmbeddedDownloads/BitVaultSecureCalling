@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\dialer.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\dialer.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\search_contact_cell.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\search_contact_cell.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\main.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\main.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\assistant_codec_downloader.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\assistant_codec_downloader.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\call_outgoing.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\call_outgoing.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\call.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\call.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\chatlist_cell.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\chatlist_cell.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\launch_screen.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\launch_screen.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\video.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\video.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\about.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\about.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\video_no_opengl.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\video_no_opengl.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-land\\call_incoming.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-land\\call_incoming.xml"
+    }
+]

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/status"
+        android:name="org.linphone.StatusFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_30"
+        tools:layout="@layout/status" />
+    <!-->header layout<-->
+    <LinearLayout
+        android:id="@+id/root_ll"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/status"
+        android:background="@drawable/background"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/header_rl"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_margin="15dp"
+            android:background="@android:color/white"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/searchInnerll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8">
+
+                <org.linphone.utils.BitVaultFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="n"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/search_ext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@color/transparent"
+                    android:cursorVisible="false"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/search"
+                    android:textColor="@android:color/darker_gray"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mHeaderRightIconRl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="horizontal">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/header_right_icon_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:text="j"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mHeaderRightIcon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="horizontal">
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/header_right_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/dot_icon"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- our menu option tabs  -->
+    <RelativeLayout
+        android:id="@+id/menu_dialog_rl"
+        android:layout_width="@dimen/height_180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:background="@android:color/white"
+        android:elevation="@dimen/margin_5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/clr_frq_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="false"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/clearFrequents"
+            android:textSize="@dimen/textsize_17sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_1dp"
+            android:layout_below="@+id/clr_frq_txt"
+            android:background="@color/colorF" />
+
+        <TextView
+            android:id="@+id/setting_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/clr_frq_txt"
+            android:clickable="true"
+            android:focusable="false"
+            android:padding="@dimen/margin_15dp"
+            android:text="@string/setting"
+            android:textSize="@dimen/textsize_17sp"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_1dp"
+            android:layout_below="@+id/setting_txt"
+            android:background="@color/colorF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/side_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/root_ll">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/top_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorF"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/menu_name"
+                    style="@style/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/settings" />
+
+                <ImageView
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/content_description_dialer_back"
+                    android:padding="@dimen/margin_15dp"
+                    android:src="@drawable/dialer_back" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/Footerbelow_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/footer"
+                android:orientation="vertical">
+                <!--	android:layout_above="@id/footer"-->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true">
+
+                    <LinearLayout
+                        android:id="@+id/fragmentContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/background"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/dialer"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <org.linphone.utils.BitVaultFont
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/content_description_dialer"
+                        android:gravity="center"
+                        android:text="@string/dialer_icon"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <View
+                        android:id="@+id/dialer_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorPrimaryDark" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/history"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <org.linphone.utils.BitVaultFont
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/content_description_history"
+                        android:gravity="center"
+                        android:text="@string/recentcall_icon"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <View
+                        android:id="@+id/history_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@android:color/white"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/missed_calls"
+                        style="@style/font18"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="@dimen/margin_10dp"
+                        android:background="@drawable/misscallcount"
+                        android:gravity="center"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/contacts"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <org.linphone.utils.BitVaultFont
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/content_description_contacts"
+                        android:gravity="center"
+                        android:text="@string/contact_mein_icon"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <View
+                        android:id="@+id/contacts_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorPrimaryDark"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/chat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/content_description_chat_button"
+                        android:padding="15dp"
+                        android:src="@drawable/footer_chat" />
+
+                    <View
+                        android:id="@+id/chat_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@android:color/white"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/missed_chats"
+                        style="@style/font18"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/history_chat_indicator"
+                        android:gravity="center"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragmentContainer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <!-- Side Menu -->
+        <RelativeLayout
+            android:id="@+id/side_menu_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/side_menu_quit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorA"
+                android:gravity="bottom">
+
+                <ImageView
+                    android:id="@+id/quit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/quit" />
+
+                <TextView
+                    android:id="@+id/quit"
+                    style="@style/font14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/quit_button"
+                    android:gravity="center_vertical"
+                    android:text="@string/quit" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/side_menu_quit"
+                android:background="@color/colorH"
+                android:orientation="vertical">
+
+                <include layout="@layout/side_menu_main_account" />
+
+                <ListView
+                    android:id="@+id/accounts_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorH"
+                    android:cacheColorHint="@color/transparent"
+                    android:choiceMode="singleChoice"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp" />
+
+                <ListView
+                    android:id="@+id/item_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorH"
+                    android:choiceMode="singleChoice"
+                    android:divider="@color/colorE"
+                    android:dividerHeight="1dp"
+                    android:footerDividersEnabled="true"
+                    android:listSelector="@color/colorH" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorE" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

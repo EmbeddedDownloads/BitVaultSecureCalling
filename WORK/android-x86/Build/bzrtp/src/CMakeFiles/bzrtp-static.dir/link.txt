@@ -1,0 +1,2 @@
+/home/vvdn/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc libbzrtp.a  CMakeFiles/bzrtp-static.dir/bzrtp.c.o CMakeFiles/bzrtp-static.dir/cryptoUtils.c.o CMakeFiles/bzrtp-static.dir/packetParser.c.o CMakeFiles/bzrtp-static.dir/pgpwords.c.o CMakeFiles/bzrtp-static.dir/stateMachine.c.o CMakeFiles/bzrtp-static.dir/zidCache.c.o
+/home/vvdn/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib libbzrtp.a

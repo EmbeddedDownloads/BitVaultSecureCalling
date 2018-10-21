@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorH"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/separator_text"
+            style="@style/font1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorE" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_detail"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/list_detail"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:button="@drawable/checkbox"
+            android:contentDescription="@string/content_description_delete"
+            android:padding="5dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/history_click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/detail"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:id="@+id/avatar_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/contact_picture"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/content_description_contact_picture"
+                    android:src="@drawable/avatar" />
+
+                <ImageView
+                    android:id="@+id/mask"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/avatar_mask" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/callOuterView"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true">
+
+                <org.linphone.utils.BitVaultFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:text="c"
+                    android:textColor="@color/headerColor"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <!--<ImageView
+                android:id="@+id/icon"
+                android:src="@drawable/call_status_incoming"
+                android:contentDescription="@string/content_description_call_direction"
+                android:padding="7dp"
+                android:visibility="visible"
+                android:layout_toRightOf="@id/avatar_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="5dp"/>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/callOuterView"
+                android:layout_toRightOf="@id/avatar_layout"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/sip_uri"
+                    style="@style/font6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/sip_time"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/sip_time"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/sip_time"
+                    style="@style/font9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sip_uri"
+                    android:layout_marginLeft="10dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/sip_date"
+                    style="@style/font9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sip_uri"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/sip_time"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="" />
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/sip_uri"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/content_description_call_direction"
+                    android:src="@drawable/call_incoming" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

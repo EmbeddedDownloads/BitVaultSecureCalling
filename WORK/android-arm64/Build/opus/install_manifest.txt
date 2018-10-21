@@ -1,0 +1,6 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/lib/libopus.a
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include/opus/opus.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include/opus/opus_custom.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include/opus/opus_defines.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include/opus/opus_multistream.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include/opus/opus_types.h

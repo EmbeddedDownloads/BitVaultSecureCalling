@@ -1,0 +1,9 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/share/Belr/cmake/BelrTargets.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/share/Belr/cmake/BelrTargets-relwithdebinfo.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/share/Belr/cmake/BelrConfig.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/belr/abnf.hh
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/belr/belr.hh
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/belr/grammarbuilder.hh
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/belr/parser.hh
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/include/belr/parser-impl.cc
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-armv7/lib/libbelr.a

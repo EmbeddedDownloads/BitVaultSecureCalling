@@ -1,0 +1,7 @@
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/install/strip.dir
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/install/local.dir
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/install.dir
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/list_install_components.dir
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/rebuild_cache.dir
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/edit_cache.dir
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Build/mswebrtc/CMakeFiles/mswebrtc.dir

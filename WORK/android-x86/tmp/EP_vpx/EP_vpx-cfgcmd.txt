@@ -1,0 +1,1 @@
+cmd='/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/EP_vpx_configure.sh'

@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_srtp"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_srtp.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/cmake/CMakeFiles/EP_srtp-complete.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-install.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-download.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-update.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-patch.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-configure.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-build.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-armv7/Stamp/EP_srtp/EP_srtp-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_srtp" ],
+		"name" : "EP_srtp"
+	}
+}

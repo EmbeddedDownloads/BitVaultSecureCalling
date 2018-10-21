@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorB"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_hight"
+        android:background="@color/headerColor">
+
+        <RelativeLayout
+            android:id="@+id/mHeaderLeftIconRl"
+            android:layout_width="@dimen/header_hight"
+            android:layout_height="@dimen/header_hight"
+            android:layout_alignParentLeft="true">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/back_icon"
+                android:textColor="@color/colorH" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/header_center_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/secure_calling_address"
+            android:textColor="@color/colorH"
+            android:textSize="@dimen/textsize_20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secureAddressRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_25dp">
+
+        <ImageView
+            android:id="@+id/addressQrCode"
+            android:layout_width="match_parent"
+            android:layout_height= "@dimen/margin_300dp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

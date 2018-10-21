@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_view"
+        layout="@layout/header_view" />
+
+    <ImageView
+        android:id="@+id/security_icon"
+        android:layout_width="@dimen/height120dp"
+        android:layout_height="@dimen/height120dp"
+        android:layout_below="@+id/header_view"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:src="@drawable/securecalldone" />
+
+    <TextView
+        android:id="@+id/called_successfully_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_icon"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:gravity="center"
+        android:text="@string/called_successfully"
+        android:textSize="@dimen/textsize_20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bitcoin_deduct_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/called_successfully_text"
+        android:layout_marginTop="@dimen/margin_60dp"
+        android:gravity="center"
+        android:text="0.0001 BTC deducted from your"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/walletInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bitcoin_deduct_amount"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/transaction_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bitcoin_deduct_amount"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:text="@string/transaction_id"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/transactionIdQrCode"
+        android:layout_width="@dimen/margin_80dp"
+        android:layout_height="@dimen/margin_80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/transaction_id"
+        android:layout_marginEnd="@dimen/margin_10dp" />
+
+    <TextView
+        android:id="@+id/transaction_id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/transaction_id"
+        android:layout_below="@+id/transaction_id"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_toLeftOf="@+id/transactionIdQrCode"
+        android:text=""
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/done_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:layout_alignParentBottom="true"
+        android:background="?selectableItemBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/headerColor"
+
+            android:gravity="center"
+            android:text="@string/done"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loader_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_view"
+        android:focusable="true"
+        android:background="@android:color/white">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress_bar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:text="@string/bitcoin_transfer_is_in_progress" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tranx_fail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_view"
+        android:visibility="gone"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Transaction Fail" />
+
+        <TextView
+            android:id="@+id/fail_done"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/headerColor"
+            android:gravity="center"
+            android:textSize="@dimen/textsize_18sp"
+            android:text="@string/done"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

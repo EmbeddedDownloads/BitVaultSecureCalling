@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TableRow android:gravity="center">
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit1"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="1"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit2"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="2"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit3"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="3"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit4"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="4"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit5"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="5"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit6"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="6"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit7"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="7"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit8"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="8"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit9"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="9"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <org.linphone.ui.Digit
+            android:id="@+id/DigitStar"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="*"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/Digit00"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="0+"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+
+        <org.linphone.ui.Digit
+            android:id="@+id/DigitHash"
+            android:background="@android:color/white"
+            android:soundEffectsEnabled="true"
+            android:text="#"
+            android:textColor="@color/headerColor"
+            android:textSize="32sp"
+            android:textStyle="normal" />
+    </TableRow>
+
+</TableLayout>

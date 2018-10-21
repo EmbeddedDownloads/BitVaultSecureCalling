@@ -1,0 +1,16 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_config_types.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/pkgconfig/speex.pc
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/pkgconfig/speexdsp.pc
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_bits.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_buffer.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_callbacks.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_echo.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_header.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_jitter.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_preprocess.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_resampler.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_stereo.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/speex/speex_types.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libspeex.a
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libspeexdsp.a

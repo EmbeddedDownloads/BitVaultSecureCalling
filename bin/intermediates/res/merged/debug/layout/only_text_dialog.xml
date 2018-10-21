@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margn_left_right"
+        android:layout_marginRight="@dimen/margn_left_right" >
+
+        <com.pacdoc.app.widgets.TextViewReg
+            android:id="@+id/messageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/textview_margn_bottom_top"
+            android:layout_marginLeft="@dimen/textview_margn_left_right"
+            android:layout_marginRight="@dimen/textview_margn_left_right"
+            android:layout_marginTop="@dimen/textview_margn_bottom_top"
+            android:background="@drawable/white_rounded_deeply"
+            android:gravity="center"
+            android:padding="@dimen/textview_padding"
+            android:textColor="@color/colorB"
+            android:textSize="@dimen/textsize_17sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/closeButtonView"
+            android:layout_width="@dimen/cross_outer_width_height"
+            android:layout_height="@dimen/cross_outer_width_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/cross_image_margn_right"
+                android:layout_marginTop="@dimen/cross_image_margn_top"
+                android:src="@drawable/cross" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

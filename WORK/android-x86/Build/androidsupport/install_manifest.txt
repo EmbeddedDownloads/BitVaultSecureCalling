@@ -1,0 +1,5 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libsupport.a
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/ctype.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/langinfo.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/nl_types.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/xlocale.h

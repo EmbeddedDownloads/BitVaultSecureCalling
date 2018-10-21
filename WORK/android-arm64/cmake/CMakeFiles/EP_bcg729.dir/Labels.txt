@@ -1,0 +1,14 @@
+# Target labels
+ EP_bcg729
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_bcg729
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_bcg729.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_bcg729-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_bcg729/EP_bcg729-force_build.rule

@@ -1,0 +1,14 @@
+# Target labels
+ EP_mbedtls
+# Source files and their labels
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_mbedtls
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_mbedtls.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_mbedtls-complete.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-install.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-mkdir.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-download.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-update.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-patch.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-configure.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-build.rule
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_mbedtls/EP_mbedtls-force_build.rule

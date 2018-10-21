@@ -1,0 +1,7 @@
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729Targets.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729Targets-relwithdebinfo.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729Config.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/share/Bcg729/cmake/Bcg729ConfigVersion.cmake
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bcg729/decoder.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/include/bcg729/encoder.h
+/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-x86/lib/libbcg729.a

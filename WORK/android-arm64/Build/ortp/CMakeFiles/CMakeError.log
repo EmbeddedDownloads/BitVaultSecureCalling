@@ -1,0 +1,49 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot find crt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: cannot find -lstdc++
+/usr/bin/ld: cannot find -lm
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find crtn.o: No such file or directory
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the include file sys/audio.h exists failed with the following output:
+Change Dir: /home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cac04/fast"
+make[4]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cac04.dir/build.make CMakeFiles/cmTC_cac04.dir/build
+make[5]: Entering directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cac04.dir/CheckIncludeFile.c.o
+/home/vvdn/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/vvdn/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/vvdn/android-ndk-r14b/platforms/android-21/arch-arm64  -isystem /home/vvdn/android-ndk-r14b/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_cac04.dir/CheckIncludeFile.c.o   -c /home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/audio.h' file not found
+#include <sys/audio.h>
+         ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_cac04.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_cac04/fast] Error 2
+make[4]: Leaving directory `/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Build/ortp/CMakeFiles/CMakeTmp'
+
+

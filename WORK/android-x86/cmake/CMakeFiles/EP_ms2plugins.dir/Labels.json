@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_ms2plugins"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_ms2plugins.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/cmake/CMakeFiles/EP_ms2plugins-complete.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-install.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-download.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-update.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-patch.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-configure.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-build.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-x86/Stamp/EP_ms2plugins/EP_ms2plugins-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_ms2plugins" ],
+		"name" : "EP_ms2plugins"
+	}
+}

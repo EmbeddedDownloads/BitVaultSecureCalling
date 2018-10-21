@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/scanTest"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="scanTest"
+                android:visibility="gone"
+                android:text="Scan Test" />
+
+            <Button
+                android:id="@+id/createVaults"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="getWallet"
+                android:text="Get Wallet" />
+            <Button
+                android:id="@+id/getAllWallets"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="getAllWallets"
+                android:text="Get All Wallets" />
+
+            <Button
+                android:id="@+id/getUnspentCount"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                android:onClick="getUnspentCount"
+                android:text="Get Unspent Count" />
+
+            <Button
+                android:id="@+id/createTransaction"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                android:onClick="createBitCoinTransaction"
+                android:text="Create BitCoin Transaction" />
+
+            <Button
+                android:id="@+id/curencyConversion"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="curencyConversion"
+                android:visibility="gone"
+                android:text="Convert Currency" />
+            <Button
+                android:id="@+id/authUser"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="authUser"
+                android:visibility="gone"
+                android:text="Auth User" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

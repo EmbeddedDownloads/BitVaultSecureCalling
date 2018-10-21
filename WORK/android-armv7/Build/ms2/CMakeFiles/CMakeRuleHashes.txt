@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+526e3d56269cb5953bca757172f2a58b src/CMakeFiles/ms2-basedescs-header
+3eca7449f5fa6831e844af310a8742b2 src/CMakeFiles/ms2-git-version
+c33397b788052bea9c1f38c2759e6493 src/CMakeFiles/ms2-voipdescs-header
+d278153bffa5d9b087381b74dbc46bfc src/CMakeFiles/ms2-yuv2rgb-fs-header
+7f81606dfdb6bbcaf11c234b8c6b267a src/CMakeFiles/ms2-yuv2rgb-vs-header

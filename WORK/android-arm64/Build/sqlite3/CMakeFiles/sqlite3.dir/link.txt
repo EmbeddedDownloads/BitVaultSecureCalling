@@ -1,0 +1,2 @@
+/home/vvdn/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar qc libsqlite3.a  CMakeFiles/sqlite3.dir/sqlite3.c.o
+/home/vvdn/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libsqlite3.a

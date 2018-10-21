@@ -1,0 +1,1 @@
+cmd='/usr/local/bin/cmake;-DENABLE_TOOLS=NO;-DENABLE_UNIT_TESTS=NO;-DENABLE_STATIC=YES;-DENABLE_SHARED=NO;-C<TMP_DIR>/EP_belcard-cache-$<CONFIG>.cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

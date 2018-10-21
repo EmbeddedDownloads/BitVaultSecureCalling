@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="auth_screen_txt">#e5d3be</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="color_error">#ff0000</color>
+    <color name="theme_color">#c79f6b</color>
+    <color name="white">#e5d3be</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edittext_height">60dp</dimen>
+    <dimen name="field_area_width">100dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <string name="app_name">SecurePhoneSDK</string>
+    <string name="denied_db_permission">This permission is required for SDK operations, If you will denied this application can not be operated.Are you sure?</string>
+    <string name="do_you_want_exit">Do you want to exit?</string>
+    <string name="done">Done</string>
+    <string name="error_failed_to_create_transaction">Error creating transaction - for some unknown reason generated transaction contained an error.</string>
+    <string name="error_not_enough_funds">Requested amount is bigger than available balance minus fee.</string>
+    <string name="generated_tx_have_too_big_fee">Generated transaction have suspiciously big fee. Please report to developer.</string>
+    <string name="iris_message">Please align your Bitvault until your eye is inside the circle.</string>
+    <string name="network_error">Please check your internet connection.</string>
+    <string name="network_slow_error">Slow network connection.</string>
+    <string name="next">Next</string>
+    <string name="nfc_message">To enter key touch your NFC card to the BitVault®.</string>
+    <string name="no">No</string>
+    <string name="no_camera_permission_granted">No camera permission access granted</string>
+    <string name="ok">OK</string>
+    <string name="output_address_same_as_input">Output address is same as input address - it\'s likely a mistake.</string>
+    <string name="point_camera_to_qr">Point Camera to QR Image</string>
+    <string name="problem_with_funds">Something wrong with yours wallet funds. Please try again.</string>
+    <string name="put_your_finger_on_scanner">Put Your Finger On Scanner.</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="scan_title">Scanning…</string>
+    <string name="server_error">Please try after some time.</string>
+    <string name="session_timeout">Session Expired</string>
+    <string name="spend_tx_description">Transaction below will transfer %1$s BTC from %2$s to %3$s. Transaction fee is %4$s BTC.</string>
+    <string name="spend_tx_with_change_description">Transaction below will transfer %1$s BTC from %2$s to %3$s. Transaction fee is %4$s BTC. Change of %5$s BTC will go to %2$s.</string>
+    <string name="unable_open_camera">Unable to open camera</string>
+    <string name="yes">Yes</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

@@ -1,0 +1,2 @@
+/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libbelr.a  CMakeFiles/belr-static.dir/abnf.cc.o CMakeFiles/belr-static.dir/belr.cc.o CMakeFiles/belr-static.dir/grammarbuilder.cc.o CMakeFiles/belr-static.dir/parser.cc.o
+/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libbelr.a

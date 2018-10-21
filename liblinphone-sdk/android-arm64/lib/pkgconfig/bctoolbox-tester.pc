@@ -1,0 +1,9 @@
+# This is a comment
+prefix=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64
+exec_prefix=/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64
+Name:  bctoolbox-tester
+Description: A common set of tester wrappers used by Belledonne Communications's softwares
+Requires.private: bcunit
+Version: 0.5.1
+Libs: -L/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/lib -lbctoolbox-tester
+Cflags: -I/home/vvdn/linphone/linphone-android-arpit/liblinphone-sdk/android-arm64/include

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorScrollRecyclerView"><attr format="reference|color" name="indexScrollThumbColor"/><attr format="reference|color" name="indexScrollTrackColor"/><attr format="reference|color" name="indexScrollPopupBgColor"/><attr format="reference|color" name="indexScrollPopupTextColor"/><attr format="reference|float" name="indexScrollPopupTextSize"/><attr format="reference|boolean" name="indexScrollAutoHide"/><attr format="reference|integer" name="indexScrollAutoHideDelay"/></declare-styleable>
+    <string name="app_name">sectionindexrecyclerviewlib</string>
+</resources>

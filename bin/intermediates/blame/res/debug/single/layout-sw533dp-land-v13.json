@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\video.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\video.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\video_no_opengl.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\video_no_opengl.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\assistant_codec_downloader.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\assistant_codec_downloader.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\chatlist_cell.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\chatlist_cell.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\call.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\call.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\call_outgoing.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\call_outgoing.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\assistant_linphone_login.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\assistant_linphone_login.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\main.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\main.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\assistant_account_creation.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\assistant_account_creation.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\call_incoming.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\call_incoming.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\dialer.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\dialer.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\assistant_login.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\assistant_login.xml"
+    },
+    {
+        "merged": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\bin\\intermediates\\res\\merged\\debug\\layout-sw533dp-land-v13\\assistant_welcome.xml",
+        "source": "E:\\workspace1\\SecureCalling_checkout\\SecureCalling\\nehah\\linphone-android\\res\\layout-sw533dp-land\\assistant_welcome.xml"
+    }
+]

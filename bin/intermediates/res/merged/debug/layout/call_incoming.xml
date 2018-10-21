@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calling_background">
+
+    <RelativeLayout
+        android:id="@+id/contact_detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_100dp">
+
+        <TextView
+            android:id="@+id/callFromTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="@string/call_from"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/contact_name"
+            style="@style/font5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/callFromTxt"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:singleLine="true"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/contact_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/contact_detail"
+        android:background="@color/colorF"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/incomming"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/headerColor"
+            android:gravity="end|center_vertical"
+            android:paddingRight="@dimen/margin_10dp"
+            android:text="@string/incoming_call"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_bar">
+
+
+        <RelativeLayout
+            android:id="@+id/avatar_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/margin_25dp"
+            android:gravity="center">
+
+            <org.linphone.utils.CircularImageView
+                android:id="@+id/contact_picture"
+                android:layout_width="@dimen/margin_170dp"
+                android:layout_height="@dimen/margin_170dp"
+                android:contentDescription="@string/content_description_contact_picture"
+                android:src="@drawable/avatar" />
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/user_image_baoundary" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="@dimen/height_50dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_marginLeft="@dimen/height_230dp"
+            android:layout_marginTop="@dimen/margin_30"
+            android:src="@drawable/secure_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/user_image"
+        android:layout_marginTop="@dimen/height_50dp">
+
+        <TextView
+            android:id="@+id/accept_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/swipe_up_to_answer"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_18sp"
+
+            />
+
+
+        <!--<RelativeLayout
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/accept_text"
+            android:layout_marginTop="@dimen/margin_20"
+            android:orientation="horizontal">-->
+
+
+            <!-- <LinearLayout
+                 android:id="@+id/declineUnlock"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="bottom"
+                 android:layout_toRightOf="@+id/decline"
+                 android:orientation="horizontal"
+                 android:paddingBottom="15dp"
+                 android:paddingRight="15dp"
+                 android:paddingTop="15dp"
+                 android:visibility="gone"></LinearLayout>-->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/red_range"
+                android:visibility="gone" />
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/decline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/content_description_decline"
+                android:padding="15dp"
+                android:text="@string/call_cancel"
+                android:textColor="@color/colorI"
+                android:textSize="@dimen/test_32sp"
+                android:visibility="gone" />
+
+
+                <ImageView
+                    android:id="@+id/call_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/incoming_icon"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:layout_below="@+id/accept_text"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/reject_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/call_img"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:text="@string/swipe_down_to_reject"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_18sp" />
+
+                <org.linphone.utils.BitVaultFont
+                    android:id="@+id/accept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/content_description_accept"
+                    android:gravity="end"
+                    android:padding="15dp"
+                    android:text="@string/receive_call"
+                    android:textColor="@color/green_accept"
+                    android:textSize="32sp"
+                    android:visibility="gone" />
+
+
+
+
+
+        <!--</RelativeLayout>-->
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

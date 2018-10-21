@@ -1,0 +1,2 @@
+/home/vvdn/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar qc libsupport.a  CMakeFiles/support.dir/home/vvdn/android-ndk-r14b/sources/android/support/src/musl-multibyte/wctomb.c.o
+/home/vvdn/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libsupport.a

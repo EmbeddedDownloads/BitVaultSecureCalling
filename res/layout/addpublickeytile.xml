@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/publicKeyBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:id="@+id/email_block"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/email_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="t" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/publickeyRl"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/email_block">
+
+            <EditText
+                android:id="@+id/publickeyTileEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:hint="Public Key"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/mQRCodeScannarView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/crossKeyRl"
+            android:visibility="visible">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/mQRImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="@string/barcode_icon" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/crossKeyRl"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:visibility="visible">
+
+            <org.linphone.utils.BitVaultFont
+                android:id="@+id/cross_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/cross_icon" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

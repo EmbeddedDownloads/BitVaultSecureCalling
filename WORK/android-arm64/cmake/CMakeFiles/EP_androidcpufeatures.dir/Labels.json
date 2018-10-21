@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_androidcpufeatures"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_androidcpufeatures.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/cmake/CMakeFiles/EP_androidcpufeatures-complete.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-install.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-download.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-update.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-patch.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-configure.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-build.rule"
+		},
+		
+		{
+			"file" : "/home/vvdn/linphone/linphone-android-arpit/WORK/android-arm64/Stamp/EP_androidcpufeatures/EP_androidcpufeatures-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_androidcpufeatures" ],
+		"name" : "EP_androidcpufeatures"
+	}
+}

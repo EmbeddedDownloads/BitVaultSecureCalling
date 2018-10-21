@@ -1,0 +1,2 @@
+/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libsupport.a  CMakeFiles/support.dir/home/vvdn/android-ndk-r14b/sources/android/support/src/musl-multibyte/wctomb.c.o
+/home/vvdn/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libsupport.a
